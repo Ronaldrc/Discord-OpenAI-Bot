@@ -1,4 +1,5 @@
-# Date: 4 January 2023
+# Copyright 2023 Ron Chim
+# Description: This program launches a discord bot which utilizes the OpenAI API to generate text and images.
 
 import discord
 import aiohttp
