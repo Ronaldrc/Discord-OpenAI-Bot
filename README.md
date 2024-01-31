@@ -28,7 +28,7 @@ Do NOT share it with others.
 The discord bot must be created in the developer portal.
 1. Head over to discord.com/developers and create an account.
 2. Sign into the developer portal.
-3. Create a **New Application**
+3. Create a 'New Application'
 
 ## Downloading the Python Script
 The only file required for running the bot is "main.py". Simply download the raw file from GitHub and store it on your local machine.
