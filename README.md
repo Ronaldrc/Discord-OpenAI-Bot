@@ -1,6 +1,6 @@
 # Discord-OpenAI-Bot
 ## Description
-This Discord bot enables users to interact with models offered via the OpenAI API by using discord slash commands. Popular models include ChatGPT-4 and Dalle-3, which can generate text or images, respectively.
+Server members in discord anto interact with models offered via the OpenAI API by using discord slash commands. Popular models include ChatGPT-4 and Dalle-3, which can generate text or images, respectively.
 <p align="center">
   <img src= "https://github.com/Ronaldrc/Discord-OpenAI-Bot/assets/107775094/863604b5-de07-41c4-872f-073faa3ed0ae"/>
 </p>
@@ -9,7 +9,7 @@ This Discord bot enables users to interact with models offered via the OpenAI AP
    <img src= "https://github.com/Ronaldrc/Discord-OpenAI-Bot/assets/107775094/7b75342e-90ff-4f55-93d0-8f138770242f"/>
 </p>
 
-To use this script, one must modify two lines of code: use their OpenAI API token and Discord Bot token. Instructions for creating the OpenAI token, creating the discord bot, downloading and running the python script, and final pointers will be discussed in further detail.
+To use this script, you must modify TWO lines of code: use their OpenAI API token and Discord Bot token. Instructions for creating the OpenAI token, creating the discord bot, downloading and running the python script, and final pointers will be discussed in further detail.
 
 Note: **Usage of the OpenAI's API may incur costs.** Please refer to OpenAI's pricing policy before continuing any further.
 ## Creating an OpenAI Token
@@ -29,5 +29,9 @@ The discord bot must be created in the developer portal.
 2. 
 
 ## Downloading the Python Script
+The only file required for running the bot is "main.py". Simply download the raw file from GitHub.
+
 ## Running the Script / Launching the Bot
+
+
 ## User Guide
