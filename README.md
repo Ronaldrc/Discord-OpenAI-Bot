@@ -13,22 +13,23 @@ Popular models include ChatGPT-4 and Dalle-3, which can generate text or images,
 To use this script, you must modify **TWO** lines of code for: 
 - OpenAI API token
 - Discord Bot token
+
 Instructions for creating the OpenAI token, creating the discord bot, downloading and running the python script, and final pointers will be discussed in further detail.
 
 Note: ***Usage of the OpenAI's API may incur costs.*** 
 Please refer to OpenAI's pricing policy before continuing any further.
 
 ## Creating an OpenAI Token
-1. Head over to https://platform.openai.com/ and create an account. Then, login using the credentials you have just made.
+1. Head over to https://platform.openai.com/ and create an account. Then, login using the credentials you have just created.
 2. Once signed in, hover your mouse over the lefthand dropdown and click on `API keys`.
 3. Press `Create new secret key` and type any name of your choice. I named mine "Discord Bot".
 <p align="center">
    <img src= "https://github.com/Ronaldrc/Discord-OpenAI-Bot/assets/107775094/48ef5ea9-d5e9-4cea-83ae-a6c566e456b9"/>
 </p>
 
-4. ***Important***
+4. ***Important***:
 Be sure to copy down the secret key for later use.
-Do NOT share it with others.
+**Do NOT** share it with others.
 
 ## Creating a Discord Bot
 The discord bot must be created in the developer portal.
