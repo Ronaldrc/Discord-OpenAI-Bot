@@ -22,29 +22,24 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 # Get API key for ChatGPT from the .env file on my local machine
 # Load .env file
-load_dotenv()         # To access private keys and IDs in my .env file on my local machine
+load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 DISCORD_BOT_KEY = os.getenv("DISCORD_BOT_KEY")
-
-# My personal discord account ID
-MY_DISCORD_ID = os.getenv("MY_DISCORD_ID")
 
 # 2 models for chatting or images - change as needed
 CHAT_MODEL = "gpt-3.5-turbo-1106"
 IMAGE_MODEL = "dall-e-3"
 
-# Make list of all possible
-
 # Perform on bot startup
-# Sync all recently created slash commands 
 @bot.event
 async def on_ready():
     print('All-in-one Brozzer bot is online! - POGGERS')
     try:
+        # Sync all recently created slash commands 
         synced = await bot.tree.sync()
         print(f"synched {len(synced)} command(s)")
     except Exception as e:
-        print(e)
+        print(f"Failed to sync commands {e}")
 
 # Slash command to access .csv file and announce the next bday
 # @bot.tree.command(name="nextbday")
