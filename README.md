@@ -72,9 +72,10 @@ DISCORD_BOT_KEY = "YOUR_DISCORD_BOT_KEY_GOES_HERE"
 To run the script, the user must have `Python` installed.
 Windows users can install Python from `Microsoft Store` or [Python Org](https://www.python.org/).
 
-## Additional Tips
-1. Changing chat or image models
+## Bonus - Changing chat or image models
 OpenAI offers many models for generating text or images. Check out [OpenAI Models](https://platform.openai.com/docs/models/overview).
+Remember, the pricing varies between models. Be sure to check out [OpenAI Pricing](https://openai.com/pricing).
+
 To change your model, find and modify these two lines of code from `main.py`.
 ```python
 CHAT_MODEL = "gpt-3.5-turbo-1106"
