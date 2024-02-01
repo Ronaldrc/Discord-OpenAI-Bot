@@ -33,7 +33,7 @@ Be sure to copy down the secret key for later use.
 
 ## Creating a Discord Bot
 The discord bot must be created in the developer portal.
-1. Head over to https://www.discord.com/developers and create an account.
+1. Head over to [Discord Developers](https://www.discord.com/developers) and create an account.
 2. Sign into the developer portal.
 3. Create a `New Application`
 4. Name the application and click `Create`
