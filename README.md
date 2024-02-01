@@ -20,7 +20,7 @@ Note: ***Usage of the OpenAI's API may incur costs.***
 Please refer to OpenAI's pricing policy before continuing any further.
 
 ## Creating an OpenAI Token
-1. Head over to https://platform.openai.com/ and create an account. Then, login using the credentials you have just created.
+1. Head over to [OpenAI](https://platform.openai.com/) and create an account. Then, login using the credentials you have just created.
 2. Once signed in, hover your mouse over the lefthand dropdown and click on `API keys`.
 3. Press `Create new secret key` and type any name of your choice. I named mine "Discord Bot".
 <p align="center">
@@ -70,12 +70,12 @@ DISCORD_BOT_KEY = "YOUR_DISCORD_BOT_KEY_GOES_HERE"
 
 ## Running the Script / Launching the Bot
 To run the script, the user must have `Python` installed.
-Windows users can install Python from `Microsoft Store` or https://www.python.org/.
+Windows users can install Python from `Microsoft Store` or [Python Org](https://www.python.org/).
 
 ## Additional Tips
 1. Changing chat or image models
 
-OpenAI offers many models for generating text or images. Check out https://platform.openai.com/docs/models/overview.
+OpenAI offers many models for generating text or images. Check out [OpenAI Models](https://platform.openai.com/docs/models/overview).
 To change your model, find and modify these two lines of code from `main.py`.
 
 ```python
