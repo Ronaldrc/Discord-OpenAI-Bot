@@ -42,12 +42,8 @@ async def on_ready():
     except Exception as e:
         print(f"Failed to sync commands {e}")
 
-# Slash command to access .csv file and announce the next bday
-# @bot.tree.command(name="nextbday")
-
 # Create slash commands
 # Send cat image to cat-image channel when /cat is typed
-cat_channel = bot.get_channel(1191649805747888178)      # cat-image channel
 cat_url = "https://images.unsplash.com/photo-1608848461950-0fe51dfc41cb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D"
 @bot.tree.command(name="cat", description="Need cat")
 async def cat(interaction: discord.Interaction):
