@@ -45,8 +45,31 @@ The discord bot must be created in the developer portal.
 ## Downloading the Python Script
 The only file required for running the bot is `main.py`. Simply download the raw file from GitHub and store it on your local machine.
 
+## Modifying the Script
+As mentioned in the beginning, the user must change **THREE** lines of code to get their own discord bot up and running.
+
+Delete this line of code below.
+
+```python
+load_dotenv()
+```
+
+Next, modify these two lines of code.
+```python
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+DISCORD_BOT_KEY = os.getenv("DISCORD_BOT_KEY")
+```
+
+Change those lines to this, where `os.getenv("OPENAI_API_KEY")` and `os.getenv("DISCORD_BOT_KEY")` is replaced by your respective keys.
+
+The final code should look something like this.
+```python
+OPENAI_API_KEY = "YOUR_OPENAI_API_KEY_GOES_HERE"
+DISCORD_BOT_KEY = "YOUR_DISCORD_BOT_KEY_GOES_HERE"
+```
+
 ## Running the Script / Launching the Bot
 Now, the user must install Python to run the program.
 Windows users can install Python from Microsoft Store or python.org.
 
-## User Guide
+## Additional Tips
