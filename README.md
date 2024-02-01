@@ -54,13 +54,13 @@ Delete this line of code below.
 load_dotenv()
 ```
 
-Next, modify these two lines of code.
+Next, find these two lines of code. We will modify them, soon.
 ```python
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 DISCORD_BOT_KEY = os.getenv("DISCORD_BOT_KEY")
 ```
 
-Change those lines to this, where `os.getenv("OPENAI_API_KEY")` and `os.getenv("DISCORD_BOT_KEY")` is replaced by your respective keys.
+Replace `os.getenv("OPENAI_API_KEY")` and `os.getenv("DISCORD_BOT_KEY")` with their respective keys.
 
 The final code should look something like this.
 ```python
