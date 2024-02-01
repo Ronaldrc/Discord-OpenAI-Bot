@@ -1,4 +1,4 @@
-# Copyright 2023 Ron Chim
+# Copyright 2024 Ron Chim
 # Description: This program launches a discord bot which utilizes the OpenAI API to generate text and images.
 
 import discord
