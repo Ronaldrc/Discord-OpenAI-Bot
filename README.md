@@ -10,7 +10,7 @@ Popular models include ChatGPT-4 and Dalle-3, which can generate text or images,
    <img src= "https://github.com/Ronaldrc/Discord-OpenAI-Bot/assets/107775094/7b75342e-90ff-4f55-93d0-8f138770242f"/>
 </p>
 
-To use this script, you must modify **TWO** lines of code for: 
+To use this script, you must modify **THREE** lines of code for: 
 - OpenAI API token
 - Discord Bot token
 
@@ -48,7 +48,7 @@ The only file required for running the bot is `main.py`. Simply download the raw
 ## Modifying the Script
 As mentioned in the beginning, the user must change **THREE** lines of code to get their own discord bot up and running.
 
-Delete this line of code below.
+Delete this line of code from `main.py`.
 
 ```python
 load_dotenv()
@@ -69,7 +69,25 @@ DISCORD_BOT_KEY = "YOUR_DISCORD_BOT_KEY_GOES_HERE"
 ```
 
 ## Running the Script / Launching the Bot
-Now, the user must install Python to run the program.
-Windows users can install Python from Microsoft Store or python.org.
+To run the script, the user must have `Python` installed.
+Windows users can install Python from `Microsoft Store` or https://www.python.org/.
 
 ## Additional Tips
+1. Changing chat or image models
+
+OpenAI offers many models for generating text or images. Check out https://platform.openai.com/docs/models/overview.
+To change your model, find and modify these two lines of code from `main.py`.
+
+```python
+CHAT_MODEL = "gpt-3.5-turbo-1106"
+IMAGE_MODEL = "dall-e-3"
+```
+
+Now, replace `gpt-3.5-turbo-1106` and/or `dall-e-3` with the model name.
+
+For example, if I wanted to use GPT-4 Turbo, I would modify one line so it looks like this.
+```python
+CHAT_MODEL = "gpt-4-0125-preview"
+```
+
+And happy coding!
