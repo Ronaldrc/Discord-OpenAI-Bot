@@ -74,20 +74,15 @@ Windows users can install Python from `Microsoft Store` or [Python Org](https://
 
 ## Additional Tips
 1. Changing chat or image models
-
 OpenAI offers many models for generating text or images. Check out [OpenAI Models](https://platform.openai.com/docs/models/overview).
 To change your model, find and modify these two lines of code from `main.py`.
-
 ```python
 CHAT_MODEL = "gpt-3.5-turbo-1106"
 IMAGE_MODEL = "dall-e-3"
 ```
-
 Now, replace `gpt-3.5-turbo-1106` and/or `dall-e-3` with the model name.
-
 For example, if I wanted to use GPT-4 Turbo, I would modify one line so it looks like this.
 ```python
 CHAT_MODEL = "gpt-4-0125-preview"
 ```
-
 And happy coding!
